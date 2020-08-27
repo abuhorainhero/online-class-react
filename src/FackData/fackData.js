@@ -78,7 +78,7 @@ var data = [
     },
     {
         id: 15,
-        title: 'Complete Complete Web Development Course', 
+        title: 'Complete Web Development Course', 
         price: 5500,
 
     },

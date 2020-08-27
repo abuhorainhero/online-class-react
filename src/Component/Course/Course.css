@@ -4,6 +4,6 @@
     padding: 10px;
 }
 .items:hover {
-    background-color: rgb(230, 95, 200);
+    background-color: lightcoral;
     color: white;
 }
