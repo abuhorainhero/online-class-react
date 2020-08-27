@@ -8,7 +8,7 @@ const Course = (props) => {
     return (
         <div className="items">
             <h4> {title} </h4> 
-            <p>Course Price : {price}</p>
+            <p>Course Price : {price}<b>৳</b></p>
             <button className="btn btn-outline-success" onClick={() => props.handleAddCourse(props.course)}><FontAwesomeIcon icon={faRunning} /> <strong>Enroll Now</strong> </button>
         </div>
     );
