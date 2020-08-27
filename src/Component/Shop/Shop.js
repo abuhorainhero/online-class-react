@@ -6,12 +6,11 @@ import Course from '../Course/Course';
 import Cart from '../Cart/Cart';
 
 const Shop = () => {
-    // console.log(data);
     const [courses, setCourses] = useState(data);
-    console.log(courses)
+
     const [cart, setCart] = useState([]);
+
     const handleAddCourse = (course) => {
-        console.log("click " , course)
         const newCart = [...cart, course];
         return setCart(newCart);
     }

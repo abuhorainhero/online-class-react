@@ -9,7 +9,7 @@ const Course = (props) => {
         <div className="items">
             <h4> {title} </h4> 
             <p>Course Price : {price}</p>
-            <button className="btn btn-outline-success" onClick={() => props.handleAddCourse(props.course)}><FontAwesomeIcon icon={faRunning} /> <strong>Enroll Now >></strong> </button>
+            <button className="btn btn-outline-success" onClick={() => props.handleAddCourse(props.course)}><FontAwesomeIcon icon={faRunning} /> <strong>Enroll Now</strong> </button>
         </div>
     );
 };
